@@ -3,12 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 :root {
-    --cor1: #B4CFF9;
-    --cor2: #9EA6DB;
-    --cor3: #C2BBF2;
-    --cor4: #B79EDB;
-    --cor5: #E3B4F9;
-    --cor6: #5c45f3;
+    --cor1: #5BA0D9;
+    --cor2: #43769F;
+    --cor3: #1A83D9;
+    --cor4: #11548C;
+    --cor5: #0B3659;
+    --cor6: #0a2b46;
 
     --fonte-padrao: Arial, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursive;
@@ -21,7 +21,9 @@
 }
 
 body {
-    background-color: var(--cor3);
+    height: 96vh;
+    background: var(--cor3) url(imgs/wallpaper.jpg) center center no-repeat fixed;
+    background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
 }
 
